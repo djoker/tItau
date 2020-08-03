@@ -1,0 +1,34 @@
+from . import db
+
+class Residencia(db.Model):
+
+id                             =id', db.Integer,  primary_key=True)
+name                           =name', db.String())
+host_id                        =host_id                       ', db.Integer)
+host_name                      =host_name                     ', db.String()) 
+neighbourhood                  =neighbourhood                 ', db.String())
+latitude                       =latitude                      ', FLOAT)
+longitude                      =longitude                     ', FLOAT)
+room_type                      =room_type                     ', db.Stting()) 
+price                          =price                         ', db.Integer) 
+minimum_nights                 =minimum_nights                ', db.Integer) 
+number_of_reviews              =number_of_reviews             ', db.Integer) 
+last_review                    =last_review                   ', db.String()) 
+reviews_per_month              =reviews_per_month             ', FLOAT) 
+calculated_host_listings_count =calculated_host_listings_count', db.Integer) 
+availability_365               =availability_365              ', db.Integer) 
+neighbourhood_group            =neighbourhood_group           ', db.String())
+)
+
+CREATE TABLE medias (
+	id db.Integer, 
+	neighbourhood_group db.String(), 
+	room_type db.String(), 
+	price FLOAT
+)
+
+CREATE TABLE likes (
+	id db.Integer, 
+	residencia_id db.Integer,
+    like INT default 1
+)
