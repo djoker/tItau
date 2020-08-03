@@ -14,3 +14,27 @@ Inicialmente tentei usar a extensão do framework *Flask* chamada **flask-restpl
   * Melhor tratamento de erros
   * Implementação de migrações com o uso do **Alembic**
   * Implementação de uma interface com base no Bootstrap
+
+## Como usar
+
+Para este projeto foi utilizado o Poetry. Então criamos o ambiente com:
+
+poetry install
+
+Então
+
+poetry shell
+
+### Carga
+
+jupyter notebook
+
+Este comando cria o ambiente Jupyter necessário para criar as bases (se quiser testar diretamente a API, os arquivos necessário já existem no repositorio, podendo iginorar o comando acima e as intruções posterios até a API)
+
+Na interface no browser, no menu "Cell" escolha "Run all"
+
+### API
+
+Para inciar a API, digite:
+
+python app.py
