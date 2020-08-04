@@ -38,3 +38,5 @@ Na interface no browser, no menu "Cell" escolha "Run all"
 Para inciar a API, digite:
 
 python app.py
+
+Ao chamar a pagina principal terá a documentação da API (Swagger).
